@@ -1,0 +1,6 @@
+#!/bin/bash
+# to be set by -e PASSWORD=... from docker cmd line   
+#export PASSWORD=vaevictis57
+export DISABLE_TELEMETRY=true
+/usr/bin/code-server --port 8686 --user-data-dir /home/rstudio
+
